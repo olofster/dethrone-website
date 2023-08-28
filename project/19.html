@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta name="google-site-verification" content="zu9Bbmki1kIgzpwZbMDTBpmHUUljuDUIKjFMxM75Dh4"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <meta property="og:image" content="../../sites/default/files/styles/200w150h/public/arthackdya.png"/>
+     	<script src="../../ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+     	<link rel="stylesheet" style="text/css" href="../../media/css/arthack-style.css">
+     	<link href="//fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+     	<script type="text/javascript">var a=new Date,b=a.getHours()+a.getTimezoneOffset()/60;if(18==a.getDate()&&0==a.getMonth()&&2012==a.getFullYear()&&13<=b&&24>=b)</script>
+		<script type="text/javascript">
+		<!--
+		var link = $("<link>");
+		if ((screen.width <= 850)) {
+		link.attr({
+		        type: 'text/css',
+		        rel: 'stylesheet',
+		        href: '/media/css/mobile.css'
+		});
+		$("head").append( link ); 
+		}else{
+		link.attr({
+		        type: 'text/css',
+		        rel: 'stylesheet',
+		        href: '/media/css/web.css'
+		});
+		$("head").append( link );		
+		}
+		//-->
+		</script>
+     	<title>Art Hack Day at 319 Scholes: January 26-28</title>
+	<link rel="canonical" href="http://arthackday.net/project/19/" />
+<script src="../../media/js/jquery.anchor.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- FOR GOOGLE ANALYTICS -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27987990-1']);
+  _gaq.push(['_setDomainName', 'arthackday.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    </head>
+    <body>
+<div class="small-title"><a href="../../319scholes/" style="color:white;">art hack day at 319</a></div>
+<div class="title">Jello City with Earthquake</div>
+<div class="photo-container">
+	<div class="photo-count" id="1"></div>
+	<div class="left-paddle"> &#60; </div>
+		<div class="selected" id="project-1">
+			<img class="project-photo" src="../../hphotos-ak-snc7/405889_374769789205009_191234134225243_1723449_810031541_n.jpg"/>
+			<div class="caption">Jello City with Earthquake</div>
+		</div>	
+	<div class="right-paddle"> &#62; </div>
+</div>
+<div class="photo-buffer"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.not-selected').hide();
+	var photoCount = parseInt($(".photo-count").attr("id"));
+	$('.left-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == 1){
+			$('#project-'+photoCount).removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id-1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+	$('.right-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == photoCount){
+			$('#project-1').removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id+1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+});
+</script>
+<div class="block" id="left">
+	<div>Uncle Nikola bragged that this mechanical oscillator "Could Destroy Empire State Building with Five Pounds of Air Pressure." (NY World Telegraph, 1935). Unfortunately, his Earthquake Generator was never constructed. Perhaps WE can envision it by applying electronic oscillators to the ground of a city made of Jello. Why Jello? Have you ever seen a <a href="http://www.lizhickok.com/01city.html">Jello City</a>? It would be so jiggly.</div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	contributors
+</div>
+<div class="container">
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../profile_images/1648119456/tatlin_s_square_normal.jpg" alt="HethreC" style="width:48px; height:48px;"/>
+		</div>
+		<div class="participant-name">
+			HethreC
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/hethrec" target="_blank">@hethrec</a>
+		</div>
+		<div class="participant-website">
+			<a href="../../project/19/None/" target="_blank">HethreC</a>
+		</div>
+		<div class="participant-about">
+			rhymes with feather, leather, weather, and whether or not
+		</div>
+	</div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	#jellocity
+</div>
+<div class="block" id="project-twitter-feed">
+	<script charset="utf-8" src="../../j/2/widget.js"></script>
+	<script>
+	new TWTR.Widget({
+	  version: 2,
+	  type: 'search',
+	  search: '#jellocity',
+	  interval: 30000,
+	  title: '',
+	  subject: '',
+	  width: 900,
+	  height:900,
+	  theme: {
+	    shell: {
+	      background: '#ffffff',
+	      color: '#000000'
+	    },
+	    tweets: {
+	      background: '#ffffff',
+	      color: '#000000',
+	      links: '#00C2FF'
+	    }
+	  },
+	  features: {
+	    scrollbar: false,
+	    loop: false,
+	    live: true,
+	    behavior: 'all'
+	  }
+	}).render().start();
+	</script>
+</div>
+<div class="copyright">
+	&#169;2011 Website built and designed by <a href="http://captaindaylight.com/" target="_blank">Paul Christophe</a> :::::::::: Organized by <a href="https://twitter.com/olofster">Olof Math&eacute;</a>, <a href="https://twitter.com/captDaylight">Paul Christophe</a>, <a href="https://twitter.com/huertanix">David Huerta</a>, and <a href="http://319scholes.org/">319 Scholes</div>
+</div>
+    </body>
+</html>

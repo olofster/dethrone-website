@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta name="google-site-verification" content="zu9Bbmki1kIgzpwZbMDTBpmHUUljuDUIKjFMxM75Dh4"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <meta property="og:image" content="../../sites/default/files/styles/200w150h/public/arthackdya.png"/>
+     	<script src="../../ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+     	<link rel="stylesheet" style="text/css" href="../../media/css/arthack-style.css">
+     	<link href="//fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+     	<script type="text/javascript">var a=new Date,b=a.getHours()+a.getTimezoneOffset()/60;if(18==a.getDate()&&0==a.getMonth()&&2012==a.getFullYear()&&13<=b&&24>=b)</script>
+		<script type="text/javascript">
+		<!--
+		var link = $("<link>");
+		if ((screen.width <= 850)) {
+		link.attr({
+		        type: 'text/css',
+		        rel: 'stylesheet',
+		        href: '/media/css/mobile.css'
+		});
+		$("head").append( link ); 
+		}else{
+		link.attr({
+		        type: 'text/css',
+		        rel: 'stylesheet',
+		        href: '/media/css/web.css'
+		});
+		$("head").append( link );		
+		}
+		//-->
+		</script>
+     	<title>Art Hack Day at 319 Scholes: January 26-28</title>
+	<link rel="canonical" href="http://arthackday.net/project/1/" />
+<script src="../../media/js/jquery.anchor.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- FOR GOOGLE ANALYTICS -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27987990-1']);
+  _gaq.push(['_setDomainName', 'arthackday.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    </head>
+    <body>
+<div class="small-title"><a href="../../319scholes/" style="color:white;">art hack day at 319</a></div>
+<div class="title">GIF booth</div>
+<div class="photo-container">
+	<div class="photo-count" id="2"></div>
+	<div class="left-paddle"> &#60; </div>
+		<div class="selected" id="project-1">
+			<div class="caption">GIF Booth</div>
+		</div>	
+		<div class="not-selected" id="project-2">
+			<img class="project-photo" src="../../pwgy1.gif"/>
+			<div class="caption">gif of gif booth</div>
+		</div>
+	<div class="right-paddle"> &#62; </div>
+</div>
+<div class="photo-buffer"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.not-selected').hide();
+	var photoCount = parseInt($(".photo-count").attr("id"));
+	$('.left-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == 1){
+			$('#project-'+photoCount).removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id-1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+	$('.right-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == photoCount){
+			$('#project-1').removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id+1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+});
+</script>
+<div class="block" id="left">
+	<div>A photo booth set up to take gif photos and projected in midtown in real-time!
+<a href="http://gif.ahprojects.com/arthackday/"> Check them out here </a></div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	contributors
+</div>
+<div class="container">
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../profile_images/665771958/houndstooth_normal.jpg" alt="Mary Huang" style="width:48px; height:48px;"/>
+		</div>
+		<div class="participant-name">
+			Mary Huang
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/rhyme_andreason" target="_blank">@rhyme_andreason</a>
+		</div>
+		<div class="participant-website">
+			<a href="http://www.rhymeandreasoncreative.com/" target="_blank">Mary Huang</a>
+		</div>
+		<div class="participant-about">
+			Making things with design + technology.
+		</div>
+	</div>
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../profile_images/1578931734/photo_normal.jpg" alt="Adam Harvey" style="width:48px; height:48px;"/>
+		</div>
+		<div class="participant-name">
+			Adam Harvey
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/adamharv" target="_blank">@adamharv</a>
+		</div>
+		<div class="participant-website">
+			<a href="http://www.ahprojects.com/" target="_blank">Adam Harvey</a>
+		</div>
+		<div class="participant-about">
+			Creator of CV Dazzle: camouflage from face detection & Camoflash: anti-paparazzi clutch. 
+		</div>
+	</div>
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../profile_images/1492103333/285124_558834608926_12502522_31839888_1086450_n_normal.jpg" alt="Ashley Zelinskie" style="width:48px; height:48px;"/>
+		</div>
+		<div class="participant-name">
+			Ashley Zelinskie
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/@azelinskie" target="_blank">@@azelinskie</a>
+		</div>
+		<div class="participant-website">
+			<a href="http://ashleyzelinskie.com/" target="_blank">Ashley Zelinskie</a>
+		</div>
+		<div class="participant-about">
+			artist/nerd/busy person, Director of The Active Space studios/gallery in Brooklyn NY.
+		</div>
+	</div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	#gifbooth
+</div>
+<div class="block" id="project-twitter-feed">
+	<script charset="utf-8" src="../../j/2/widget.js"></script>
+	<script>
+	new TWTR.Widget({
+	  version: 2,
+	  type: 'search',
+	  search: '#gifbooth',
+	  interval: 30000,
+	  title: '',
+	  subject: '',
+	  width: 900,
+	  height:900,
+	  theme: {
+	    shell: {
+	      background: '#ffffff',
+	      color: '#000000'
+	    },
+	    tweets: {
+	      background: '#ffffff',
+	      color: '#000000',
+	      links: '#00C2FF'
+	    }
+	  },
+	  features: {
+	    scrollbar: false,
+	    loop: false,
+	    live: true,
+	    behavior: 'all'
+	  }
+	}).render().start();
+	</script>
+</div>
+<div class="copyright">
+	&#169;2011 Website built and designed by <a href="http://captaindaylight.com/" target="_blank">Paul Christophe</a> :::::::::: Organized by <a href="https://twitter.com/olofster">Olof Math&eacute;</a>, <a href="https://twitter.com/captDaylight">Paul Christophe</a>, <a href="https://twitter.com/huertanix">David Huerta</a>, and <a href="http://319scholes.org/">319 Scholes</div>
+</div>
+    </body>
+</html>

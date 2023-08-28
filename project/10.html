@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta name="google-site-verification" content="zu9Bbmki1kIgzpwZbMDTBpmHUUljuDUIKjFMxM75Dh4"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <meta property="og:image" content="../../sites/default/files/styles/200w150h/public/arthackdya.png"/>
+     	<script src="../../ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+     	<link rel="stylesheet" style="text/css" href="../../media/css/arthack-style.css">
+     	<link href="//fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+     	<script type="text/javascript">var a=new Date,b=a.getHours()+a.getTimezoneOffset()/60;if(18==a.getDate()&&0==a.getMonth()&&2012==a.getFullYear()&&13<=b&&24>=b)</script>
+		<script type="text/javascript">
+		<!--
+		var link = $("<link>");
+		if ((screen.width <= 850)) {
+		link.attr({
+		        type: 'text/css',
+		        rel: 'stylesheet',
+		        href: '/media/css/mobile.css'
+		});
+		$("head").append( link ); 
+		}else{
+		link.attr({
+		        type: 'text/css',
+		        rel: 'stylesheet',
+		        href: '/media/css/web.css'
+		});
+		$("head").append( link );		
+		}
+		//-->
+		</script>
+     	<title>Art Hack Day at 319 Scholes: January 26-28</title>
+	<link rel="canonical" href="http://arthackday.net/project/10/" />
+<script src="../../media/js/jquery.anchor.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- FOR GOOGLE ANALYTICS -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27987990-1']);
+  _gaq.push(['_setDomainName', 'arthackday.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    </head>
+    <body>
+<div class="small-title"><a href="../../319scholes/" style="color:white;">art hack day at 319</a></div>
+<div class="title">Balloons</div>
+<div class="photo-container">
+	<div class="photo-count" id="1"></div>
+	<div class="left-paddle"> &#60; </div>
+		<div class="selected" id="project-1">
+			<img class="project-photo" src="../../7159/6791664271_4ae8acb544.jpg"/>
+			<div class="caption">Laser cut head covered in latex</div>
+		</div>	
+	<div class="right-paddle"> &#62; </div>
+</div>
+<div class="photo-buffer"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.not-selected').hide();
+	var photoCount = parseInt($(".photo-count").attr("id"));
+	$('.left-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == 1){
+			$('#project-'+photoCount).removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id-1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+	$('.right-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == photoCount){
+			$('#project-1').removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id+1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+});
+</script>
+<div class="block" id="left">
+	<div>We tried to make DIY balloons with 3D printed or laser cut objects.
+We printed plastic geometrical shapes on the maker bot as well as
+assembling a 3D head out of laser cut shapes (using Autodesk's 123D
+Make). We covered these "balloon moulds" in liquid latex and then
+baked them in a make-shift oven constructed from mylar covered wine
+box and some incandescent lights. After the latex dries, it can be
+peeled off and inflated. We hoped that the balloon would retain the
+shape of the original 3D printed objects and yield shapes not
+otherwise possible through traditional manufacturing techniques.</div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	contributors
+</div>
+<div class="container">
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../48/48.jpg" alt="Olov Sundstrom"/>			
+		</div>
+		<div class="participant-name">
+			Olov Sundstrom
+		</div>
+		<div class="participant-twitter">
+		</div>
+		<div class="participant-website">
+			<a href="../../project/10/[2]/" target="_blank">Olov Sundstrom</a>
+		</div>
+		<div class="participant-about">
+			None
+		</div>
+	</div>
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../profile_images/1761999580/bird_house_normal.jpg" alt="Nova Jiang" style="width:48px; height:48px;"/>
+		</div>
+		<div class="participant-name">
+			Nova Jiang
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/nova_jiang" target="_blank">@nova_jiang</a>
+		</div>
+		<div class="participant-website">
+			<a href="http://novajiang.com/" target="_blank">Nova Jiang</a>
+		</div>
+		<div class="participant-about">
+			Nova is an artist interested in play, participation, open systems and drawing connections between different fields of cultural production. 
+		</div>
+	</div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	#Balloons
+</div>
+<div class="block" id="project-twitter-feed">
+	<script charset="utf-8" src="../../j/2/widget.js"></script>
+	<script>
+	new TWTR.Widget({
+	  version: 2,
+	  type: 'search',
+	  search: '#Balloons',
+	  interval: 30000,
+	  title: '',
+	  subject: '',
+	  width: 900,
+	  height:900,
+	  theme: {
+	    shell: {
+	      background: '#ffffff',
+	      color: '#000000'
+	    },
+	    tweets: {
+	      background: '#ffffff',
+	      color: '#000000',
+	      links: '#00C2FF'
+	    }
+	  },
+	  features: {
+	    scrollbar: false,
+	    loop: false,
+	    live: true,
+	    behavior: 'all'
+	  }
+	}).render().start();
+	</script>
+</div>
+<div class="copyright">
+	&#169;2011 Website built and designed by <a href="http://captaindaylight.com/" target="_blank">Paul Christophe</a> :::::::::: Organized by <a href="https://twitter.com/olofster">Olof Math&eacute;</a>, <a href="https://twitter.com/captDaylight">Paul Christophe</a>, <a href="https://twitter.com/huertanix">David Huerta</a>, and <a href="http://319scholes.org/">319 Scholes</div>
+</div>
+    </body>
+</html>

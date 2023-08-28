@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="icon" type="image/png" href="../../media/img/favicon.png">    
+    	<meta name="google-site-verification" content="zu9Bbmki1kIgzpwZbMDTBpmHUUljuDUIKjFMxM75Dh4"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <meta property="og:image" content="../../sites/default/files/styles/200w150h/public/arthackdya.png"/>
+     	<script src="../../ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+     	<link rel="stylesheet" style="text/css" href="../../media/css/arthack-style-01.css">
+     	<link href="//fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+     	<script type="text/javascript">var a=new Date,b=a.getHours()+a.getTimezoneOffset()/60;if(18==a.getDate()&&0==a.getMonth()&&2012==a.getFullYear()&&13<=b&&24>=b)</script>
+     	<title>Art Hack Day</title>
+	<link rel="canonical" href="http://arthackday.net/project/2/" />
+<script src="../../media/js/jquery.anchor.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- FOR GOOGLE ANALYTICS -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27987990-1']);
+  _gaq.push(['_setDomainName', 'arthackday.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    </head>
+    <body>
+<div class="small-title"><a href="../../319scholes/" style="color:white;">art hack day at 319</a></div>
+<div class="title">Skippable Rope</div>
+<div class="photo-container">
+	<div class="photo-count" id="3"></div>
+	<div class="left-paddle"> &#60; </div>
+		<div class="selected" id="project-1">
+			<img class="project-photo" src="../../7011/6790796025_7f49ee7367.jpg"/>
+			<div class="caption">Skippable Rope</div>
+		</div>	
+		<div class="not-selected" id="project-2">
+			<img class="project-photo" src="../../7026/6791200655_8ecda49ab0.jpg"/>
+		</div>
+		<div class="not-selected" id="project-3">
+			<img class="project-photo" src="../../7169/6791178809_38030182f3.jpg"/>
+		</div>
+	<div class="right-paddle"> &#62; </div>
+</div>
+<div class="photo-buffer"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.not-selected').hide();
+	var photoCount = parseInt($(".photo-count").attr("id"));
+	$('.left-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == 1){
+			$('#project-'+photoCount).removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id-1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+	$('.right-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == photoCount){
+			$('#project-1').removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id+1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+});
+</script>
+<div class="block" id="left">
+	<div><p>Performance / communal game for 3 people to skip rope using just their iPhones.</p>
+<p>2 people swing their iphones (as the ends of the rope) which creates a skipping rope sound. The person in he middle has to jump in sync with the swinging. If he/ she doesn't the rope hits that persons pants, plays that sound and goes silent (ie no more feedback since the swinging stops)</p>
+<object type="application/x-shockwave-flash" width="400" height="227" data="../../apps/video/stewart-v-109786.swf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&amp;photo_secret=2a59804710&amp;photo_id=6791179325"></param> <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=109786"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="../../apps/video/stewart-v-109786.swf" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&amp;photo_secret=2a59804710&amp;photo_id=6791179325" height="227" width="400"></embed></object>
+<p>There's also a single person version where one person holds two iPhones as ends of the rope;)</p>
+<object type="application/x-shockwave-flash" width="400" height="225" data="../../apps/video/stewart-v-109786.swf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&amp;photo_secret=8a44e92d51&amp;photo_id=6790861919"></param> <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=109786"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="../../apps/video/stewart-v-109786.swf" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&amp;photo_secret=8a44e92d51&amp;photo_id=6790861919" height="225" width="400"></embed></object>
+<p>We use the iPhone's accelerometer to determine when the 'rope' is being swung and whether the person skipping is in sync with the rope.</p>
+<p>Sign up to get the beta on <a href="http://skippablerope.com /">http://skippablerope.com </a></p></div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	contributors
+</div>
+<div class="container">
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../profile_images/900114038/square_minimal_politics_normal.jpg" alt="Conrad Whelan" style="width:48px; height:48px;"/>
+		</div>
+		<div class="participant-name">
+			Conrad Whelan
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/conradaroma" target="_blank">@conradaroma</a>
+		</div>
+		<div class="participant-website">
+			<a href="http://www.uberapp.com/" target="_blank">Conrad Whelan</a>
+		</div>
+		<div class="participant-about">
+			@Uber Engineer; Canadian; Quiet; Decent; Minimalist. Interests: music, coffee, film, dark chocolate, quality journalism, wave equations. Patron of good times.
+		</div>
+	</div>
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../profile_images/1784251138/duct_taped_normal.jpg" alt="Olof Mathé" style="width:48px; height:48px;"/>
+		</div>
+		<div class="participant-name">
+			Olof Mathé
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/olofster" target="_blank">@olofster</a>
+		</div>
+		<div class="participant-website">
+			<a href="http://olofster.com/" target="_blank">Olof Mathé</a>
+		</div>
+		<div class="participant-about">
+		</div>
+	</div>
+	<div class="participant">
+		<div class="participant-photo">
+		</div>
+		<div class="participant-name">
+			Andrey Zhukov
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/andreyz" target="_blank">@andreyz</a>
+		</div>
+		<div class="participant-website">
+			<a href="http://andrey.se/" target="_blank">Andrey Zhukov</a>
+		</div>
+		<div class="participant-about">
+			I make things.
+		</div>
+	</div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	#skippablerope
+</div>
+<div class="block" id="project-twitter-feed">
+	<script charset="utf-8" src="../../j/2/widget.js"></script>
+	<script>
+	new TWTR.Widget({
+	  version: 2,
+	  type: 'search',
+	  search: '#skippablerope',
+	  interval: 30000,
+	  title: '',
+	  subject: '',
+	  width: 900,
+	  height:900,
+	  theme: {
+	    shell: {
+	      background: '#ffffff',
+	      color: '#000000'
+	    },
+	    tweets: {
+	      background: '#ffffff',
+	      color: '#000000',
+	      links: '#00C2FF'
+	    }
+	  },
+	  features: {
+	    scrollbar: false,
+	    loop: false,
+	    live: true,
+	    behavior: 'all'
+	  }
+	}).render().start();
+	</script>
+</div>
+<div class="copyright">
+	&#169;2011 Website built and designed by <a href="http://captaindaylight.com/" target="_blank">Paul Christophe</a> :::::::::: Organized by <a href="https://twitter.com/olofster">Olof Math&eacute;</a>, <a href="https://twitter.com/captDaylight">Paul Christophe</a>, <a href="https://twitter.com/huertanix">David Huerta</a>, and <a href="http://319scholes.org/">319 Scholes</div>
+</div>
+    </body>
+</html>
