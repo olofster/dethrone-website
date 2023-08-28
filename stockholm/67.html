@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="icon" type="image/png" href="../../media/img/favicon.png">    
+    	<meta name="google-site-verification" content="zu9Bbmki1kIgzpwZbMDTBpmHUUljuDUIKjFMxM75Dh4"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <meta property="og:image" content="../../sites/default/files/styles/200w150h/public/arthackdya.png"/>
+     	<script src="../../ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+     	<link rel="stylesheet" style="text/css" href="../../media/css/arthack-style-01.css">
+     	<link href="//fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+     	<script type="text/javascript">var a=new Date,b=a.getHours()+a.getTimezoneOffset()/60;if(18==a.getDate()&&0==a.getMonth()&&2012==a.getFullYear()&&13<=b&&24>=b)</script>
+     	<title>Art Hack Day</title>
+	<link rel="canonical" href="http://arthackday.net/stockholm/67/" />
+<script src="../../media/js/jquery.anchor.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- FOR GOOGLE ANALYTICS -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27987990-1']);
+  _gaq.push(['_setDomainName', 'arthackday.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    </head>
+    <body>
+<div class="small-title"><a href="../../stockholm/" style="color:white;">art hack day at Bonniers Konsthall</a></div>
+<div class="title">3D Printed Music</div>
+<div class="photo-container">
+	<div class="photo-count" id="4"></div>
+	<div class="left-paddle"> &#60; </div>
+		<div class="selected" id="project-1">
+			<img class="project-photo" src="../../4f2fdface5c046e11a87f9d994c608c9/tumblr_mlkk12j5RW1rlcnubo1_500.jpg"/>
+		</div>	
+		<div class="not-selected" id="project-2">
+			<img class="project-photo" src="../../46be529db0012d92cd2dfa4843250fdd/tumblr_mlkizdzrJQ1rlcnubo1_500.jpg"/>
+		</div>
+		<div class="not-selected" id="project-3">
+			<img class="project-photo" src="../../1cb6e905ee53d688cd9e25285f7daae3/tumblr_mlkiy5DyIi1rlcnubo1_500.png"/>
+		</div>
+		<div class="not-selected" id="project-4">
+			<img class="project-photo" src="../../b6efc881c12b380dc065a55abe88b864/tumblr_mlkix49WDD1rlcnubo1_500.jpg"/>
+		</div>
+	<div class="right-paddle"> &#62; </div>
+</div>
+<div class="photo-buffer"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.not-selected').hide();
+	var photoCount = parseInt($(".photo-count").attr("id"));
+	$('.left-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == 1){
+			$('#project-'+photoCount).removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id-1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+	$('.right-paddle').click(function(){
+		var id = $('.selected').attr("id");
+		id = parseInt(id.substring(8));
+		$('.selected').removeClass("selected").addClass("not-selected").hide();
+		if(id == photoCount){
+			$('#project-1').removeClass("not-selected").addClass("selected");
+			$('.selected').show();			
+		}else{
+			$('#project-'+(id+1)).removeClass("not-selected").addClass("selected");
+			$('.selected').show();
+		}
+	});
+});
+</script>
+<div class="block" id="left">
+	<div>This project explores the alternative uses of the 3D-printing. Rather than printing something 'useful' the servoengine of the printer is used to play music, and as a by product objects appear. 
+<br/><br/>
+Using a Lulzbot 3D-printer to visualize different classical musical pieces.
+<br/>
+The project explores the alternative uses of 3D-printers. It's being used to create
+unique art by printing classical pieces of music while at the same time acting as 
+an instrument and performing the music itself.
+<br/>
+The step motors controlling the movement can be run at different speeds,
+the speed decides the pitch of the sound and makes it possible for the motors to make music.
+<br/>
+Three motors each represent one of the tracks and their movement makes a unique pattern.
+The two motors controlling the Z-axis move only slightly to increase
+the height. Microphones on the motors picks up the sound and amplifies it.
+<br/><br/>
+Pieces performed during the exhibit:<br/>
+1. Williams - Star Wars: Imperial March<br/>
+2. Rossini - William Tell Overture<br/>
+3. Beethoven - 5th Symphony Part 1<br/>
+4. Mozart - Serenade No.13 in G for strings Eine Kleine Nachtmusik (K.525)<br/>
+5. Strauss - Blue Danube<br/>
+6. Bizet - Carmen: Habanera<br/>
+<br/><br/>
+<iframe src="http://player.vimeo.com/video/63997136" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/63997136">3D-printed music</a> from <a href="http://vimeo.com/dahlstrand">Rickard Dahlstrand</a> on <a href="http://vimeo.com/">Vimeo</a>.</p>
+<br/><br/>
+<iframe class="vine-embed" src="../../v/bt039WTZie6/embed/simple_ext_iframe/" width="600" height="600" frameborder="0"></iframe><script async src="../../static/scripts/embed.js" charset="utf-8"></script>
+<br/><br/>
+<iframe class="vine-embed" src="../../v/bF7gBeQiuvA/embed/simple_ext_iframe/" width="600" height="600" frameborder="0"></iframe><script async src="../../static/scripts/embed.js" charset="utf-8"></script></div>
+	<br>
+	<div><a href="https://github.com/rickarddahlstrand/MIDI-to-CNC">Project Github</a></div>
+</div>
+<div class="buffer"></div>
+<div class="header-project">
+	contributors
+</div>
+<div class="container">
+	<div class="participant">
+		<div class="participant-photo">
+			<img src="../../profile_images/1695223750/196296_4799083946_560003946_110498_6362_n-1_normal.jpg" alt="Rickard Dahlstrand" style="width:48px; height:48px;"/>
+		</div>
+		<div class="participant-name">
+			Rickard Dahlstrand
+		</div>
+		<div class="participant-twitter">
+			<a href="https://twitter.com/#!/rdahlstrand" target="_blank">@rdahlstrand</a>
+		</div>
+		<div class="participant-website">
+			<a href="../../stockholm/67/None/" target="_blank">Rickard Dahlstrand</a>
+		</div>
+		<div class="participant-about">
+			I&#39;m not giving my bio to a machine..
+		</div>
+	</div>
+</div>
+<div class="buffer"></div>
+<div class="copyright">
+	&#169;2013 Produced by <a href="/">Art Hack Day</a> in collaboration with <a href="http://www.bonnier.se/">Bonniers Konsthall</a>
+</div>
+    </body>
+</html>
