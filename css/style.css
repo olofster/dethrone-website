@@ -911,16 +911,15 @@ body.black {
   color: black;
 }
 .section#about-page .container.about-partner-venue .partner-container button {
-  color: white;
+  color: #ffffff;
   background-color: black;
   border-radius: 0px;
   border: none;
   font-family: 'COLFAX';
   font-size: 13px;
   position: absolute;
-
+  bottom: 3px;
   padding: 7px 60px;
-  margin-top: 40px !important;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -1085,7 +1084,7 @@ body.black {
 .section#landing-header .event-callout #sub-hero,
 .section#header .event-callout #sub-hero {
   font-size: 21px;
-
+  margin-top: 0;
 }
 .section#landing-header .event-callout #sub-hero h2,
 .section#header .event-callout #sub-hero h2,
