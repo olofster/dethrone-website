@@ -1084,6 +1084,7 @@ body.black {
 .section#landing-header .event-callout #sub-hero,
 .section#header .event-callout #sub-hero {
   font-size: 21px;
+
 }
 .section#landing-header .event-callout #sub-hero h2,
 .section#header .event-callout #sub-hero h2,
@@ -1130,7 +1131,7 @@ body.black {
   padding-top: 150px;
 }
 .section#project-page #project #project-description h2 {
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   margin-top: 0px;
   top: -8px;
   position: relative;
