@@ -1002,7 +1002,7 @@ body.black {
   margin-bottom: 20px;
 }
 .section .third-blurb a > div img {
-  width: 100%;
+  max-width: 100%;
 }
 .section .third-blurb a.hover:hover {
   color: #ffffff;
