@@ -1352,7 +1352,7 @@ body.black {
 }
 .section#event-about .about-event-right .border-container {
   width: 100%;
-  border: 1px solid black;
+  border: 2px solid #5000ff;
 }
 .section#event-about .about-event-right .border-container > div {
   margin: 20px;
@@ -1406,6 +1406,10 @@ body.black {
 }
 .section#participants {
   margin-top: 100px;
+}
+
+.section#participants #cta {
+  line-height: 26px;
 }
 .section#participants #participants-container h2 {
   margin: 50px 0px 20px 0px;
