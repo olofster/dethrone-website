@@ -1080,11 +1080,13 @@ body.black {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 3px rgb(0,0,0, .1);
 }
 .section#landing-header .event-callout #sub-hero,
 .section#header .event-callout #sub-hero {
   font-size: 21px;
   margin-top: 0;
+  text-shadow: 2px 2px 1px rgb(0,0,0, .2);
 }
 .section#landing-header .event-callout #sub-hero h2,
 .section#header .event-callout #sub-hero h2,
