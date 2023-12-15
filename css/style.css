@@ -1088,6 +1088,18 @@ body.black {
   margin-top: 0;
   text-shadow: 2px 2px 1px rgb(0,0,0, .2);
 }
+
+.section#landing-header .event-callout #sub-hero {
+  background-color: #5000ff;
+  padding-top: .5rem;
+  padding-bottom: .375rem;
+}
+
+.section#landing-header .event-callout #sub-hero h3 {
+  font-size: 22px;
+  line-height: 1.1;
+}
+
 .section#landing-header .event-callout #sub-hero h2,
 .section#header .event-callout #sub-hero h2,
 .section#landing-header .event-callout #sub-hero h3,
