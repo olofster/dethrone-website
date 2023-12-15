@@ -862,15 +862,17 @@ body.black {
   width: 175px;
 }
 .section#footer #footer-bottom {
-  height: 26px;
+  height: 30px;
   background-color: #5000ff;
   text-align: left;
   padding-top: 9px;
+  padding-bottom: 9px;
+
   font-size: 12px;
   text-transform: capitalize;
 }
 .section#footer #footer-bottom #organized-by {
-  font-size: 10px;
+  font-size: 11px;
   color: white;
   letter-spacing: .06em;
 }
@@ -1080,7 +1082,7 @@ body.black {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 2px 2px 3px rgb(0,0,0, .1);
+  text-shadow: 2px 2px 3px rgb(0,0,0, .2);
 }
 .section#landing-header .event-callout #sub-hero,
 .section#header .event-callout #sub-hero {
@@ -1258,9 +1260,16 @@ body.black {
   padding-top: 150px;
   color: white;
 }
-.section#contact-page .section-header {
+.section#contact-page .section-header, .section#contact-page p {
   color: white;
+  font-size: 18px;
+  line-height: 1.2;
 }
+
+.section#contact-page p {
+  margin-bottom: 18px;
+}
+
 .section#contact-page .one-third ul li {
   margin-bottom: 30px;
 }
@@ -1272,6 +1281,11 @@ body.black {
   transition: all 0.2s ease;
   color: white;
 }
+
+.section#contact-page #new_message {
+  display: none;
+}
+
 .section#contact-page .one-third ul li a:hover {
   color: #5000ff;
 }
