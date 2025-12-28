@@ -43,7 +43,7 @@ li{
 	padding-top: 3px;
 	z-index: 100;
 }
-.twitter, .twitter-follow-button, .twitter-share-button{
+.x, .x-follow-button, .x-share-button{
 	float:right;
 	width:300px;
 	margin-top: -9px;
@@ -221,10 +221,10 @@ li{
 }
 
 /* PRESS STYLING */
-#twitter_update_list li {
+#x_update_list li {
 	list-style-type: none;
 }
-#twitter_update_list span {
+#x_update_list span {
 	color: black;
 	font-size: 25px;
 }
@@ -271,7 +271,7 @@ li{
 	font-size: 17px;
 	margin-bottom: 3px;
 }
-.participant-twitter{
+.participant-x{
 	text-align: left;
 	font-size: 12px;
 }
