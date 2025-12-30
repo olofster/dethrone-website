@@ -1175,15 +1175,21 @@ body.black {
   margin-bottom: 30px;
 }
 .section#project-page #project #project-description .project-contributor img,
-.section#project-page #project #project-description .project-contributor div {
+.section#project-page #project #project-description .project-contributor > div:not(.avatar-image) {
   display: inline-block;
   vertical-align: middle;
 }
 .section#project-page #project #project-description .project-contributor img,
-.section#project-page #project #project-description .project-contributor .blank {
+.section#project-page #project #project-description .project-contributor .blank,
+.section#project-page #project #project-description .project-contributor .avatar-image.blank {
   height:48px;
   width:48px;
   margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.section#project-page #project #project-description .project-contributor .avatar-image.blank {
+  background-color: #5000ff;
 }
 .section#project-page #project #project-description .project-contributor p {
   margin: 0px;
