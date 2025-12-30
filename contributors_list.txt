@@ -1,0 +1,190 @@
+============================================================
+Finding Contributors with Blank Avatars and Twitter Handles
+============================================================
+
+Found 180 unique contributors with blank avatars and Twitter handles:
+
+  Aaron Meyers                   @aarontweets
+  Abram Clark                    @abramclark
+  Adam Harvey                    @adamharv
+  Adam Harvey                    @adamhrv
+  Addie Wagenknecht              @wheresaddie
+  Akitoshi Honda                 @akitoshihonda
+  Alec Arme                      @%40ginkko
+  alessandro contini             @cntlsn
+  Alex Ehlke                     @aehlke
+  Alex Glowaski                  @glowascii
+  Alexander Porter               @alexicon3000
+  Alexandra Gorczynski           @cutestgirlevr
+  Allison Burtch                 @irl
+  Alma Alloro                    @bikecore
+  Amelia Winger-Bearskin         @ameliawb
+  amjc                           @amjcrawford
+  Andrew Benson                  @pixlpa
+  Andrey Zaikin                  @zed_0xff
+  Andrey Zhukov                  @andreyz
+  Ashley Zelinskie               @azelinskie
+  Audrey Samson                  @ideacritik
+  Aure Moser                     @auremoser
+  averymax                       @averymax
+  Barry Threw                    @barrythrew
+  Ben McChesney                  @bendesigning
+  Benjamin Gleitzman             @gleitz
+  bigsley                        @bigsley
+  Burcum                         @mucrubb
+  C. A. Stavridis                @castavridis
+  C. Alaric Moore                @apisgirl
+  Can Kilicbay                   @socialdistress
+  Carl Barstad                   @carlbarstad
+  Casey Pugh                     @caseypugh
+  Chad Eivins                    @chizmotv
+  Christopher Pietsch            @chrispiecom
+  Cullen Miller                  @cullenmiller
+  cuntstar.                      @elasticsnaps
+  Daniel Massey                  @pichiste
+  Daniela Gilsanz                @danielagilsanz
+  DANtheMAN                      @thedantheman
+  Darsha Hewitt                  @dardi_2000
+  David Lublin                   @davidlublin
+  David Mauro                    @dmaurolizer
+  David Newbury                  @workergnome
+  David Stolarsky                @davidstolarsky
+  Ekene Ijeoma                   @ekeneijeoma
+  Elin Aram                      @elinaram
+  Ellie Irons                    @eirons
+  Elwyn Crawford                 @oloverhats
+  Emil Stenström                 @emilstenstrom
+  Emilie Brout                   @ebroutmmarion
+  Eric Mika                      @kitschpatrol
+  Esten Hurtle                   @esten
+  Evan Roth                      @evanroth_
+  Eve Weinberg                   @evejweinberg
+  Ezer Longinus                  @ezerlonginus
+  Felix Lorsignol                @florsignol
+  Gene Kogan                     @genekogan
+  Genevieve Tremblay             @gentremblaze
+  Gijs Gieskes                   @g1j5
+  Hannes Wikström                @hanneswikstrom
+  Hayden Molinarolo              @deth_bb
+  Heather Coles                  @evilspirals
+  Heather DeweyHagborg           @hdeweyh
+  Helen America                  @helen_america
+  HethreC                        @hethrec
+  Hoan T                         @hoan
+  Ian LeBlanc                    @kitbashive
+  Igal Nassima                   @igaln
+  James Donovan                  @jwdnyc
+  James George                   @obviousjim
+  Jamie Wilkinson                @jamiew
+  Jason Huff                     @jsnhff
+  Jeffrey Easter                 @feesta
+  Jen Fuller                     @jenfullerstudio
+  Jenn Schiffer                  @jennschiffer
+  Jeremy Bailey                  @jeremybailey
+  Jerome Morin-Drouin            @jeromemd
+  Joana Öberg                    @joanadarc
+  Johannes Wagener               @johanneswagener
+  John Resig                     @jeresig
+  Jonatan Heyman                 @jonatanheyman
+  Jonathan O Minard              @deepspeedmedia
+  Jonathan Vingiano              @jgv
+  Joshua Kopel                   @jkopel
+  Joshua Nimoy                   @jtnimoy
+  JoshuaKeay                     @joshuakeay
+  Julian Oliver                  @julian0liver
+  Justin Kerr Sheckler           @jaykayess
+  Katie Koepfinger               @katiekatiekoep
+  Ken Amarit                     @kenamarit
+  Kevin Chen                     @bkevinchen
+  Kristina Schneider             @kriesse
+  Kyle McDonald                  @kcimc
+  lara grant                     @push_reset
+  Laura Wadden                   @laurawadden
+  Laurel Jensen                  @designlaurels
+  Leonard Grey⚡                  @speednoise
+  Lily Su                        @yoursinsoap
+  Lindsay Eyink                  @leyink
+  Linyi Dai                      @linyidai
+  Louise Drulhe                  @louisedrulhe
+  Marko Manriquez                @markolicious
+  Marlowe Dobbe                  @marlowedobbe
+  Martiny                        @emilymartiny
+  Mary Huang                     @rhyme_andreason
+  Matt Ganucheau                 @mganucheau
+  matty H                        @misterinterrupt
+  max ogden                      @maxogden
+  Max Schneider                  @m_schneider
+  Max Weisel                     @mxweas
+  Maxime Marion                  @ebroutmmarion
+  Mey Lean Kronemann             @lumibots
+  mgiraldo                       @mgiraldo
+  Michael Hill                   @wildparadox
+  Mike Ackerman                  @mikeackermanart
+  moot                           @moot
+  Mr. GIF                        @mistergif
+  Myra Lara                      @nullthread
+  Nat Evans                      @natevans__
+  natalia radywyl                @nataliaradywyl
+  Nate Horstmann                 @natehorstmann
+  nick barr                      @nsbarr
+  nick hasty                     @jnhasty
+  Nick Yulman                    @trustynick
+  nicolas weidinger              @drweidinger
+  Nils Westerlund                @nils_westerlund
+  Nora O'Murchu                  @norette
+  Nova Jiang                     @nova_jiang
+  Nullsleep                      @nullsleep
+  Nyssa Oru                      @nyssaoru
+  Olle Bjerkås                   @buzzmash
+  Pascal Chatterjee              @pkchatterjee
+  Patrick Ewing                  @hoverbird
+  Paul Tagliamonte               @paultag
+  Paulo Barcelos                 @paulobarcelos
+  Phillip Nelson                 @phillipnelson
+  Pær Svn                        @pearsvn
+  Ralf Baecker                   @rlfbckr
+  Ramin Soleymani                @ramin__
+  Raphaël Bastide                @raphaelbastide
+  Raven Fox                      @ravenfox
+  Reed Erlandson                 @reedperl
+  reedandrader                   @reedandrader
+  Rob Spectre                    @dn0t
+  Robert Boehnke                 @ceterum_censeo
+  Robin Rath                     @robinrath
+  Robin Willis                   @robincwillis
+  robotcowboy                    @danomatika
+  Romain Chanut                  @openizer
+  Roopa Vasudevan                @rouxpz
+  roxanna shohadaee              @theflooid
+  Ryan Alexander                 @notlion
+  Ryan Mather                    @flomerboy
+  Sarah Bonser                   @scriptkittie
+  sarah grant                    @woolypixel
+  Sarah Rothberg                 @rothbergberg
+  Sascha Pohflepp                @plugimi
+  Scott (scobot) Bennett         @scobot1
+  Sean McIntyre                  @boxysean
+  Silvio Lorusso                 @silvi0l0russo
+  sofy yuditskaya                @horusvacui
+  Sougwen Chung                  @sougwen
+  Stefanie Schirmer              @linse
+  Steve August                   @steveaugust
+  Sue Slagle                     @sue_c_cie
+  Susan Ngo                      @suengo
+  Tamar Ziv                      @tamarziv
+  Tedb0t                         @disgr4ce
+  termie                         @termie
+  The Post Futurist              @valentinburov
+  Theodore Watson                @theowatson
+  Thomas Wester                  @westert
+  Tim Combs                      @desolidstate
+  Timothy Fitz                   @timothyfitz
+  Tj Hughes                      @_teejay5
+  Uttam Grandhi                  @2kool2resist
+  vuokko aro                     @vuokko
+  Yancy Way                      @yancyway
+  yopablo                        @yopablo
+
+============================================================
+Total: 180 contributors
+============================================================
